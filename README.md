@@ -75,7 +75,7 @@
 1. 청약 챗봇 프로젝트
 - 폴더명 : [subscription_chatbot](https://github.com/kimsunhyung/project/tree/main/subscription_chatbot)
 - 기간 : 2022년 8월 19일 ~ 2022년 9월 2일
-- 팀명 : 집값많이올랐조(4명)
+- 인원 : 정상필 외 3명
 - 사용언어 : Python
 - 사용툴 : VSCode, Kakao I open builder
 - 프레임워크 : Flask
@@ -83,9 +83,10 @@
 - 플랫폼 : Heroku
 - 라이브러리 : flask, SQLAlchemy,Pandas,Psycopg2 등등
 - 내용 : 수도권 청약 공고 정보에 대해 편하고 간편하게 얻어낼 수 있도록 하기 위한 프로젝트
-	- 서비스 1 : 진행되고 있는 수도권 청약 공고 정보 습득할 수 있는 서비스
-	- 서비스 2 : 청약 유형별 자격 조건 정보 습득할 수 있는 서비스
-	- 서비스 3 : 가점계산기를 구현하여 자신의 점수를 인지할 수 있는 서비스
+	- ```Flask``` 웹 프레임워크와 ```Heroku``` 플랫폼에 배포 및 ```Postgresql```을 사용한 간단한 DB관리
+	- 서비스1 : 수도권 내의 본인이 알고싶은 지역의 이름을 검색하면 해당지역의 현재 기간에 해당하는 공고 출력(지역은 시,군단위)
+    - 서비스2 : 청약의 정보를 유형별로 자체 제작한 간략한 카드와 URL형식으로 제공
+    - 서비스3 : 일반가점제도의 가점제를 계산기형식으로 제공
 - 결과 : 완료
 - [최종 pdf](https://github.com/kimsunhyung/project/blob/main/subscription_chatbot/ppt/%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C_PPT.pdf)
 - [시연영상](https://www.youtube.com/watch?v=Z5UQAE6qamM)
